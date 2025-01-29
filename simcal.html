@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>External CSS Example</title>
+        <link rel="stylesheet" href="simcal.css">
+        <script src="simcal.js"></script>
+
+    </head>
+    <body>
+        <div class="cal">
+        <h2>Simple Calculator</h2>
+        <label id="l1"><b>Number1:</b></label>
+        <input type="number" placeholder="Enter 1st number" id="one">
+        <label id="l2"><b>Number2:</b></label>
+        <input type="number" placeholder="Enter 2nd number" id="two">
+        <div class="buttonclick">
+        <button type="button" id="b1" onclick="Sum()">+</button>
+        <button type="button" id="b2" onclick="Difference()">-</button>
+        <button type="button" id="b3" onclick="Product()">x</button>
+        <button type="button" id="b4" onclick="Division()">/</button>
+        </div><br>
+        <b><label>The result is:</label></b>
+        <p id="result"></p>
+        </div>
+
+    </body>
+</html>
